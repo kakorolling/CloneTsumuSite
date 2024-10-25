@@ -1,8 +1,13 @@
 import './App.css';
+import Router from "./Router";
 
-
-export default function App() {
+function App() {
   return (
-    <h1>hello</h1>
+    <div className='App'>
+      <Router />
+    </div>
   );
 }
+
+
+export default App;
