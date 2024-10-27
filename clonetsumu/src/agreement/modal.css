@@ -1,0 +1,46 @@
+.checkboxBtn{
+    width: 70px;
+    height: 30px;
+    border: solid 1px #aaa;
+    border-radius: 5px;
+    background-color: #aaa;
+}
+
+.shadow{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300vh;
+    height: 100vh;
+    z-index: -1000;
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+.modalbox{
+    margin: auto;
+    width: 90%;
+}
+
+.textarea{
+    height: 650px;
+    overflow-y: scroll;
+    text-align: left;
+    border: solid 1px #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 10pt;
+    margin-bottom: 20px;
+}
+
+.modalExitBtn{
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
+    position: absolute;
+    right: 10%;
+    width: 70px;
+    height: 30px;
+    border: solid 1px #aaa;
+    border-radius: 5px;
+    background-color: #aaa;
+}
