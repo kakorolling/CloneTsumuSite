@@ -1,0 +1,103 @@
+.commonsFrame{
+    margin: 80px 0;
+}
+.pageFrame{
+    margin: auto;
+    width: 500px;
+    max-width: 80%;
+    padding: 30px;
+    border: solid 1px #ddd;
+    border-radius: 10px;
+}
+
+.title{
+    text-align: left;
+    font-weight: bold;
+    width: 350px;
+    max-width: 100%;
+    font-size: 20pt;
+    margin-bottom: 20px;
+}
+
+#api{
+    display: flex;
+    flex-direction: column;
+}
+.apiBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    max-width: 100%;
+    height: 40px;
+    max-width: 100%;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+#google{
+    background-color: #EA4335;
+}
+
+#x{
+    background-color: #000;
+}
+
+.apiImg{
+    justify-content: left;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.apiTxt{
+    color: #fff;
+    width:400px;
+    max-width: 90%;
+    font-size: 10pt;
+}
+
+.registerFrame{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.inputboxTxt{
+    text-align: left;
+
+}
+.inputbox{
+    -webkit-appearance: none;
+    -moz-appearance: none; 
+    appearance: none;
+    width: 450px;
+    max-width: 100%;
+    height: 40px;
+    border: solid 1px #ddd;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin: 5px 0;
+}
+
+.submitBtn{
+    -webkit-appearance: none;
+    -moz-appearance: none; 
+    appearance: none;
+    width: 450px;
+    max-width: 100%;
+    height: 40px;
+    border: solid 1px #ddd;
+    border-radius: 5px;
+    background-color: #ddd;
+    margin-top: 10px;
+}
+
+.submitBtn:hover{
+    border: solid 1px #aaa;
+    background-color: #aaa;
+    color: #fff;
+    transition-duration: 0.5s;
+}

@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.bodyFrame{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: auto;
+    color: #444;
+    background-color: #ccc;
+    padding: 60px 10%;
+}
+
+.LinkPage{
+    margin: 20px 0 0 0;
+}
+.LinkTxt{
+    color: #444;
+    margin: 0 30px;
+    text-decoration: none;
+
+}
+
+.LinkTxt:hover{
+    color: #000;
+    text-decoration: underline;
+}
